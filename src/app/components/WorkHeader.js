@@ -27,19 +27,20 @@ export default function WorkHeader({ title, links }) {
                 {title}
             </p>
             <div className="flex justify-center items-center gap-10 mt-5">
-                {Object.entries(links).map(([linkType, url]) => (
-                    <a
-                        key={linkType}
-                        href={url}
-                        className="text-base"
-                        target="_blank"
-                    >
-                        {iconMap[linkType]}{" "}
-                        <p className="sm:text-sm md:text-md lg:text-base">
-                            {iconType[linkType]} Link
-                        </p>
-                    </a>
-                ))}
+                {links &&
+                    Object.entries(links).map(([linkType, url]) => (
+                        <a
+                            key={linkType}
+                            href={url}
+                            className="text-base"
+                            target="_blank"
+                        >
+                            {iconMap[linkType]}{" "}
+                            <p className="sm:text-sm md:text-md lg:text-base">
+                                {iconType[linkType]} Link
+                            </p>
+                        </a>
+                    ))}
             </div>
         </div>
     );

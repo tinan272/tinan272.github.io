@@ -1,27 +1,25 @@
 "use client";
 import Navbar from "../../../components/Navbar";
 import Image from "next/image";
-import Article from "@mui/icons-material/Article";
+import WorkHeader from "../../../components/WorkHeader";
+import SectionTitle from "../../../components/SectionTitle";
 
 export default function QUIC() {
+    const links = {
+        Article: "https://www.overleaf.com/read/gxhksfbgcmpq#a19e77",
+    };
     return (
         <main className="px-6 sm:px-10 md:px-16 lg:px-20 py-10 text-gray-900 bg-white">
             <Navbar />
 
             <div className="text-4xl font-bold text-center mb-12">
-                <p> Fingerprinting Quic over Media </p>
-                <a
-                    className="text-base"
-                    href={"https://www.overleaf.com/read/gxhksfbgcmpq#a19e77"}
-                >
-                    <Article /> <p>Doc Link</p>
-                </a>
+                <WorkHeader
+                    title={"Fingerprinting Over QUIC Media"}
+                    links={links}
+                />
             </div>
 
-            <div className="flex items-center justify-between mb-10">
-                <h2 className="text-2xl italic">Paper (CS6262)</h2>
-                <div className="flex-grow ml-4 h-0.5 bg-black" />
-            </div>
+            <SectionTitle title={"Paper (CS6262)"} />
 
             <div className="w-full max-w-screen-xl mx-auto">
                 <div className="flex flex-col gap-10">
@@ -29,7 +27,7 @@ export default function QUIC() {
                         {["quic.png", "quic4.png"].map((src, idx) => (
                             <div key={idx} className="w-full sm:w-1/2 lg:w-1/3">
                                 <Image
-                                    src={`./images/quic/${src}`}
+                                    src={`/images/quic/${src}`}
                                     alt="work image"
                                     width={0}
                                     height={0}

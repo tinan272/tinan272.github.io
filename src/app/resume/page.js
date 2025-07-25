@@ -11,7 +11,7 @@ export default function Resume() {
         PDF: "./resume.pdf",
     };
     return (
-        <main className="px-6 sm:px-10 md:px-16 lg:px-20 bg-white">
+        <main className="px-6 sm:px-10 md:px-16 lg:px-20 bg-white text-gray-900">
             <div className="my-10">
                 <Navbar />
             </div>

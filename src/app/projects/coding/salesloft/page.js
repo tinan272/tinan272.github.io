@@ -2,6 +2,7 @@
 import Navbar from "../../../components/Navbar";
 import Image from "next/image";
 import SectionTitle from "../../../components/SectionTitle";
+import WorkHeader from "../../../components/WorkHeader";
 
 export default function Salesloft() {
     return (
@@ -9,7 +10,10 @@ export default function Salesloft() {
             <Navbar />
 
             <div className="text-4xl font-bold text-center mb-12">
-                <p> Dynamic Email Templates: Intern Project at Salesloft </p>
+                <WorkHeader
+                    title={"Salesloft Dynamic Email Template"}
+                    links={null}
+                />
             </div>
             <SectionTitle title={"Coding Project"} />
 
