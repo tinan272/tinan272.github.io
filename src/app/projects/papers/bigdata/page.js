@@ -28,7 +28,7 @@ export default function BigData() {
                         {["bigdata.png", "bigdata2.png"].map((src, idx) => (
                             <div key={idx} className="w-full sm:w-1/2 lg:w-1/3">
                                 <Image
-                                    src={`./images/bigdata/${src}`}
+                                    src={`/tinan272.github.io/images/bigdata/${src}`}
                                     alt="work image"
                                     width={0}
                                     height={0}

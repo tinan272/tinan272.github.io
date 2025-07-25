@@ -11,10 +11,7 @@ import ListSection from "./components/ListSection";
 import Qualifications from "../../data/qualifications.json";
 
 export default function Home() {
-    let statement = `My name is Tina! I'm an aspiring Software Engineer based in Atlanta, GA. I’m a
-                    New Grad with a Master’s in CS at Georgia Tech with a
-                    specialization in Machine Learning. I graduated in
-                    May Spring 2025.`;
+    let statement = `My name is Tina! I'm an aspiring Software Engineer based in Atlanta, GA. I recently (May 2025) graduated from Georgia Tech with a Masters in CS, specializing in Machine Learning!`;
 
     return (
         <main className="flex min-h-screen flex-col bg-white text-gray-900 py-10 px-10 xl:px-20 ">

@@ -1,7 +1,6 @@
 "use client";
 import Navbar from "../../../components/Navbar";
 import Image from "next/image";
-import GitHubIcon from "@mui/icons-material/GitHub";
 import SectionTitle from "../../../components/SectionTitle";
 
 export default function Salesloft() {
@@ -18,7 +17,7 @@ export default function Salesloft() {
                 <div className="flex flex-col lg:flex-row justify-between gap-10">
                     <div className="flex flex-col items-center gap-1">
                         <Image
-                            src="./images/salesloft/salesloft2.png"
+                            src="/tinan272.github.io/images/salesloft/salesloft2.png"
                             width={500}
                             height={500}
                             alt="work image"
