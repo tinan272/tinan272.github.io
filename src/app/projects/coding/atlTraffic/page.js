@@ -6,7 +6,7 @@ import WorkHeader from "../../../components/WorkHeader";
 
 export default function atlTraffic() {
     const links = {
-        GitHub: "https://github.com/tinan272/cse6242traffic",
+        PDF: "../../datavis.pdf",
         Google: "https://docs.google.com/document/d/1J1_CpZbA1J1lTtik95Rm4dxfOpxNlbw03Krn3H0YOAw/edit?usp=sharing",
     };
     return (
@@ -29,7 +29,7 @@ export default function atlTraffic() {
                         {["datavis3.png", "datavis.png"].map((src, idx) => (
                             <div key={idx} className="w-full">
                                 <Image
-                                    src={`./images/datavis/${src}`}
+                                    src={`/images/datavis/${src}`}
                                     alt="work image"
                                     width={0}
                                     height={0}

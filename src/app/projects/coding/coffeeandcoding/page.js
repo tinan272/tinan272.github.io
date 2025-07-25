@@ -22,13 +22,13 @@ export default function CoffeeAndCoding() {
                 <div className="flex flex-col lg:flex-row justify-between gap-10">
                     <div className="flex flex-col items-center gap-1">
                         <Image
-                            src="./images/coffeeandcoding/coffeecoding.jpg"
+                            src="/images/coffeeandcoding/coffeecoding.jpg"
                             width={500}
                             height={500}
                             alt="work image"
                         />
                         <Image
-                            src="./images/coffeeandcoding/coffeecoding2.png"
+                            src="/images/coffeeandcoding/coffeecoding2.png"
                             width={500}
                             height={500}
                             alt="work image"
