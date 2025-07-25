@@ -1,6 +1,6 @@
 {
     "navbar": {
-        "Resume": "/resume",
+        "Resume": "./resume.pdf",
         "Email": "mailto:tinangu272@gmail.com",
         "LinkedIn": "https://www.linkedin.com/in/tina-nguyen-302542188/",
         "GitHub": "https://github.com/tinan272/",
