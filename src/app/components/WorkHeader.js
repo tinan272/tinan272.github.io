@@ -2,6 +2,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import Google from "@mui/icons-material/Google";
 import Movie from "@mui/icons-material/Movie";
 import Article from "@mui/icons-material/Article";
+import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
 
 export default function WorkHeader({ title, links }) {
     const iconMap = {
@@ -9,6 +10,7 @@ export default function WorkHeader({ title, links }) {
         Google: <Google />,
         GitHub: <GitHubIcon />,
         Movie: <Movie />,
+        PDF: <PictureAsPdfIcon />,
     };
 
     const iconType = {
@@ -16,6 +18,7 @@ export default function WorkHeader({ title, links }) {
         Google: "Doc",
         GitHub: "Github",
         Movie: "Movie",
+        PDF: "PDF",
     };
 
     return (
