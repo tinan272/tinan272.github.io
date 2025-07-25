@@ -29,7 +29,7 @@ export default function QUIC() {
                         {["quic.png", "quic4.png"].map((src, idx) => (
                             <div key={idx} className="w-full sm:w-1/2 lg:w-1/3">
                                 <Image
-                                    src={`/images/quic/${src}`}
+                                    src={`./images/quic/${src}`}
                                     alt="work image"
                                     width={0}
                                     height={0}
@@ -87,7 +87,7 @@ export default function QUIC() {
                                     className="w-full sm:w-1/2 lg:w-1/3"
                                 >
                                     <Image
-                                        src={`/images/quic/${src}`}
+                                        src={`./images/quic/${src}`}
                                         alt="work image"
                                         width={0}
                                         height={0}

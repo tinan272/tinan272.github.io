@@ -29,7 +29,7 @@ export default function atlTraffic() {
                         {["datavis3.png", "datavis.png"].map((src, idx) => (
                             <div key={idx} className="w-full">
                                 <Image
-                                    src={`/images/datavis/${src}`}
+                                    src={`./images/datavis/${src}`}
                                     alt="work image"
                                     width={0}
                                     height={0}

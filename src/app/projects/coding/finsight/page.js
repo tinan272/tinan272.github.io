@@ -25,7 +25,7 @@ export default function FinSight() {
                         {["MAS.png", "MAS7.png", "MAS6.png"].map((src, idx) => (
                             <div key={idx} className="w-full sm:w-1/2 lg:w-1/3">
                                 <Image
-                                    src={`/images/mas/${src}`}
+                                    src={`./images/mas/${src}`}
                                     alt="work image"
                                     width={0}
                                     height={0}
@@ -96,7 +96,7 @@ export default function FinSight() {
                         </ul>
                         <div>
                             <Image
-                                src="/images/mas/MAS2.png"
+                                src="./images/mas/MAS2.png"
                                 alt="work image"
                                 width={0}
                                 height={0}
@@ -134,7 +134,7 @@ export default function FinSight() {
                                         className="w-full sm:w-1/2 lg:w-1/3"
                                     >
                                         <Image
-                                            src={`/images/mas/${src}`}
+                                            src={`./images/mas/${src}`}
                                             alt="work image"
                                             width={0}
                                             height={0}
@@ -188,7 +188,7 @@ export default function FinSight() {
                                         className="w-full sm:w-1/2 lg:w-1/3"
                                     >
                                         <Image
-                                            src={`/images/mas/${src}`}
+                                            src={`./images/mas/${src}`}
                                             alt="work image"
                                             width={0}
                                             height={0}

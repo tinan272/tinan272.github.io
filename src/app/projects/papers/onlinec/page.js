@@ -30,7 +30,7 @@ export default function OnlineC() {
                         {["onlinec.png"].map((src, idx) => (
                             <div key={idx} className="w-full sm:w-1/2 lg:w-1/3">
                                 <Image
-                                    src={`/images/onlinec/${src}`}
+                                    src={`./images/onlinec/${src}`}
                                     alt="work image"
                                     width={0}
                                     height={0}
