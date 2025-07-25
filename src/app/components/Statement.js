@@ -1,6 +1,7 @@
 "use client";
 import Stack from "@mui/material/Stack";
 import SouthIcon from "@mui/icons-material/South";
+import Link from "next/link";
 export default function Statement({ statement }) {
     return (
         <div>
@@ -26,7 +27,7 @@ export default function Statement({ statement }) {
                     {statement}
                 </div>
                 <div>
-                    <a href="/#projects">
+                    <Link href="./#projects">
                         <SouthIcon
                             sx={{
                                 fontSize: {
@@ -38,7 +39,7 @@ export default function Statement({ statement }) {
                                 mx: "auto",
                             }}
                         />
-                    </a>
+                    </Link>
                 </div>
             </Stack>
         </div>

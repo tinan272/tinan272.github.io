@@ -69,16 +69,16 @@ export default function QUIC() {
                             protocols. I was first unable to find patterns, but
                             later thought to combine plain UDP + QUIC.
                             Thereafter, I started seeing patterns in burst
-                            sizes. While researching Youtube's documentation, I
-                            found little about their media streaming protocols,
-                            specifically with QUIC. I did however see that
-                            Youtube used plain UDP for live streams and ads.
-                            While those weren't the videos I collected, I
-                            theorized that that could also be their fallback for
-                            streaming media. I then analyzed QUIC and plain UDP
-                            packets and found patterns in burst sizes.
-                            Thereafter, I was able to identify video quality
-                            with 77% accuracy.
+                            sizes. While researching Youtube&#39;s
+                            documentation, I found little about their media
+                            streaming protocols, specifically with QUIC. I did
+                            however see that Youtube used plain UDP for live
+                            streams and ads. While those weren&#39;t the videos
+                            I collected, I theorized that that could also be
+                            their fallback for streaming media. I then analyzed
+                            QUIC and plain UDP packets and found patterns in
+                            burst sizes. Thereafter, I was able to identify
+                            video quality with 77% accuracy.
                         </p>
                         <div className="flex justify-center items-center">
                             {["quic2.png", "quic3.png"].map((src, idx) => (
@@ -87,7 +87,7 @@ export default function QUIC() {
                                     className="w-full sm:w-1/2 lg:w-1/3"
                                 >
                                     <Image
-                                        src={`./images/quic/${src}`}
+                                        src={`/images/quic/${src}`}
                                         alt="work image"
                                         width={0}
                                         height={0}

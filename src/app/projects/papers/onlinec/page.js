@@ -46,43 +46,44 @@ export default function OnlineC() {
                         <p className="leading-relaxed">
                             For my Online Communities class, my group and I
                             studied the qualities that contribute to the success
-                            of an e-community on Reddit, r/AskOldPeople.
+                            of an e-community on Reddit: r/AskOldPeople.
                         </p>
                         <p>
-                            Currently, this community exists as one of the
-                            largest communities on Reddit at over 765k members.
-                            It attracts much of its audience through high
-                            engagement, often getting noticed on Reddit’s
-                            trending pages. This paper evaluates whether the
-                            current community aligns with Amy Jo Kim’s “Nine
-                            Principles for Community Design” by participating in
-                            the subreddit and interviewing nine users. I
-                            interviewed 4 users.
+                            This community is one of the largest on Reddit, with
+                            over 765k members. It attracts much of its audience
+                            through high engagement and often appears on
+                            Reddit&#39;s trending pages. Our paper evaluates
+                            whether the current community aligns with Amy Jo
+                            Kim&#39;s “Nine Principles for Community Design” by
+                            participating in the subreddit and interviewing nine
+                            users. I personally interviewed four users.
                         </p>
                         <p>
                             Through our research, we found that the subreddit
                             has a clear purpose, acting as a third place where
                             anyone can post a question, but only those born on
                             or before 1980 can post responses. The community
-                            bridges the generation gaps by providing a space for
-                            people to ask questions to an older audience. As a
-                            simple site with rigid rules and moderators to
-                            uphold them, there are no evolving member profiles
-                            or roles, no community events, no rituals, and no
-                            formation of subgroups. Participants do not report
-                            feeling so much like a community but do enjoy
-                            learning and interacting with one another. The
-                            community here evolves with the current trends where
-                            the topics and viewpoints shift with the years. The
-                            subreddit lacks many attributes aligning with Kim's
-                            design principles and thus does not meet the
-                            criteria for a community. While the members are not
-                            close-knit, it remains a popular place on Reddit
-                            because of its non-committal structure and
-                            flexibility. The subreddit has remained peaceful and
-                            respectful over the years and continues to act as a
-                            reliable place where niche questions can be asked
-                            and explored.
+                            bridges generation gaps by providing a space for
+                            younger people to ask questions to an older
+                            audience. As a simple site with rigid rules and
+                            moderators to enforce them, there are no evolving
+                            member profiles or roles, no community events, no
+                            rituals, and no subgroups. Participants do not
+                            report feeling like a close-knit community but do
+                            enjoy learning from and interacting with one
+                            another.
+                        </p>
+                        <p>
+                            The subreddit evolves with current trends, and the
+                            topics and viewpoints shift over time. It lacks many
+                            attributes aligned with Kim&#39;s design principles
+                            and thus does not fully meet the criteria for a
+                            community. While its members may not feel a strong
+                            sense of belonging, the subreddit remains popular
+                            due to its low-commitment structure and flexibility.
+                            It has remained peaceful and respectful over the
+                            years and continues to serve as a reliable place
+                            where niche questions can be asked and explored.
                         </p>
                     </div>
                 </div>
