@@ -10,7 +10,7 @@ export default function FinSight() {
         Google: "https://docs.google.com/document/d/1MCSTNE4kVr2HY54vND6QmzTICZthEUIK94PdElplr1Y/edit?tab=t.0",
     };
     return (
-        <main className="px-6 sm:px-10 md:px-16 lg:px-20 py-10 text-gray-900">
+        <main className="px-6 sm:px-10 md:px-16 lg:px-20 py-10 text-gray-900 bg-white">
             <Navbar />
             <div className="text-4xl font-bold text-center mb-12">
                 <WorkHeader

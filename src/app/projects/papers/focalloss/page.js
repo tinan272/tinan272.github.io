@@ -9,7 +9,7 @@ export default function OnlineC() {
         Google: "https://docs.google.com/presentation/d/1rOwVlNRykT4Ohe5cU-HzeLLP2THH8QDNjspvHsbhwb4/edit?usp=sharing",
     };
     return (
-        <main className="px-6 sm:px-10 md:px-16 lg:px-20 py-10 text-gray-900">
+        <main className="px-6 sm:px-10 md:px-16 lg:px-20 py-10 text-gray-900 bg-white">
             <div className="my-10">
                 <Navbar />
             </div>

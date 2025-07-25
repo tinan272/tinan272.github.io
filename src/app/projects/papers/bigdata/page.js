@@ -9,7 +9,7 @@ export default function BigData() {
         Article: "https://www.overleaf.com/read/gxhksfbgcmpq#a19e77",
     };
     return (
-        <main className="px-6 sm:px-10 md:px-16 lg:px-20 py-10 text-gray-900">
+        <main className="px-6 sm:px-10 md:px-16 lg:px-20 py-10 text-gray-900 bg-white">
             <div className="my-10">
                 <Navbar />
             </div>
