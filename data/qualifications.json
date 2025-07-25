@@ -1,0 +1,46 @@
+{
+    "skills": {
+        "id": "My Skills",
+        "info": {
+            "Languages": ["Python", "Java"],
+            "Web & App Development": [
+                "HTML/CSS",
+                "JavaScript",
+                "ReactJs",
+                "React Native",
+                "NextJS"
+            ],
+            "Database Tools": ["SQL/MySQL", "PostgreSQL", "PySpark", "MongoDB"],
+            "Tools": [
+                "REST APIs",
+                "Git",
+                "Docker",
+                "AWS",
+                "pip",
+                "npm",
+                "CI/CD"
+            ],
+            "Methodologies": ["Scrum", "Agile"]
+        }
+    },
+    "coursework": {
+        "id": "My Courses",
+        "info": {
+            "Undergradate": [
+                "Object-Oriented Programming (OOP)",
+                "Objects & Design Patterns",
+                "Data Structures & Algorithms Complexity",
+                "Computer Organization & Programming",
+                "Databases",
+                "Computer Networking"
+            ],
+            "Graduate": [
+                "Computer Information Security",
+                "Machine Learning",
+                "Mobile Systems & Applications",
+                "Big Data Systems & Analytics",
+                "CS & Engineering Algorithms"
+            ]
+        }
+    }
+}

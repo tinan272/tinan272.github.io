@@ -1,0 +1,54 @@
+{
+    "Projects": [
+        {
+            "title": "Coffee&Coding",
+            "subheader": "Jan 2024-Present",
+            "image": "/images/coffeeandcoding/coffeecoding.jpg",
+            "href": "/projects/coding/coffeeandcoding"
+        },
+        {
+            "title": "FinSight: React Native Mobile App",
+            "subheader": "Spring 2025",
+            "image": "/images/mas/MAS.png",
+            "href": "/projects/coding/finsight"
+        },
+        {
+            "title": "Atlanta Traffic Data Visualization",
+            "subheader": "Fall 2024",
+            "image": "/images/datavis/datavis.png",
+            "href": "/projects/coding/atlTraffic"
+        },
+        {
+            "title": "Salesloft",
+            "subheader": "December 2022",
+            "image": "/images/salesloft/salesloft.png",
+            "href": "/projects/coding/salesloft"
+        }
+    ],
+    "Papers": [
+        {
+            "title": "Fingerprinting QUIC on Media",
+            "subheader": "Spring 2025",
+            "image": "/images/quic/quic.png",
+            "href": "/projects/papers/quic"
+        },
+        {
+            "title": "Training Pre-Trained LLMs on Geolocation Task",
+            "subheader": "Fall 2024",
+            "image": "/images/bigdata/bigdata6.png",
+            "href": "/projects/papers/bigdata"
+        },
+        {
+            "title": "From Boomers to Zoomers: Bridging Generations Without Community Traditions",
+            "subheader": "Fall 2024",
+            "image": "/images/onlinec/onlinec.png",
+            "href": "/projects/papers/onlinec"
+        },
+        {
+            "title": "Improving Calibration in Unbalanced Datasets with Focal Loss over Cross Entropy",
+            "subheader": "Spring 2023",
+            "image": "/images/focalloss/focalloss.jpg",
+            "href": "/projects/papers/focalloss"
+        }
+    ]
+}
