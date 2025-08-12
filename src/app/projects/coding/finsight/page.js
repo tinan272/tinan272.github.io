@@ -8,6 +8,7 @@ export default function FinSight() {
     const links = {
         Movie: "https://drive.google.com/file/d/1CbnEfKv1jYJvQhNi____O0Zfce5eakzx/view?usp=sharing",
         Google: "https://docs.google.com/document/d/1MCSTNE4kVr2HY54vND6QmzTICZthEUIK94PdElplr1Y/edit?tab=t.0",
+        GitHub: "https://github.com/scottwatanuki/FinSight",
     };
     return (
         <main className="px-6 sm:px-10 md:px-16 lg:px-20 py-10 text-gray-900 bg-white">
